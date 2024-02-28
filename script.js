@@ -18,18 +18,18 @@ $(document).ready(function() {
     })
 
     $("#userColor").on('input', function() {
-        let boja = $(this).val();
+        let elementColor = $(this).val();
         $('#userElement').css
             ({
-                'background-color': boja
+                'background-color': elementColor
             })
         })
 
     $('#volume').on('input', function() {
-        let ivica = $(this).val();
+        let elementBorder = $(this).val();
         $('#userElement').css
             ({
-                'border-radius' : ivica + '%'
+                'border-radius' : elementBorder + '%'
             })
     })
 
